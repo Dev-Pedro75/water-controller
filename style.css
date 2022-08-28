@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: white;
+}
+
+body {
+  background-color: #333;
+}
+
+header {
+  padding: 50px;
+}
+
+header h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+#cup-section {
+  display: flex;
+  justify-content: center;
+}
+
+#cup {
+  width: 300px;
+  height: 450px;
+  background-color: rgba(196, 196, 211, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+}
+
+#cup-water {
+  width: 300px;
+  height: 0px;
+  background-color: rgb(57, 118, 223);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2rem;
+  transition: 0.5s;
+}
+
+#change-button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.change-button {
+  width: 100px;
+  height: 50px;
+  margin: 0 20px;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.change-button:hover {
+  opacity: 0.7;
+}
+
+.plus {
+  background-color: rgb(131, 189, 46);
+}
+
+.minus {
+  background-color: rgb(219, 66, 66);
+}
+
+#select-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+select {
+  padding: 10px;
+  background-color: rgb(57, 118, 223);
+  border: none;
+  margin: 10px 0px;
+  width: 200px;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  outline: none;
+  margin: 0 10px;
+}

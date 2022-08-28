@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Water Controller</h1>
+    </header>
+    <main>
+      <section id="cup-section">
+        <div id="cup">
+          <div id="cup-water">0ml</div>
+        </div>
+      </section>
+      <div id="change-button-container">
+        <button class="change-button minus" onclick="removeWater()">-</button>
+        <button class="change-button plus" onclick="addWater()">+</button>
+      </div>
+      <div id="select-container">
+        <div>
+          <select id="selectDayLiter">
+            <option select disabled>Liters Per Day</option>
+            <option value="2000">2000ml</option>
+            <option value="3000">3000ml</option>
+            <option value="4000">4000ml</option>
+          </select>
+
+          <select id="selectGlassSize">
+            <option select disabled>Cup Size</option>
+            <option value="250">250ml</option>
+            <option value="500">500ml</option>
+            <option value="1000">1000ml</option>
+          </select>
+        </div>
+      </div>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
